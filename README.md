@@ -36,73 +36,117 @@ User Query
 | Backend | FastAPI + Redis |
 | Frontend | Next.js 14 + shadcn/ui |
 
-## Quickstart
+---
+
+## Setup
+
+### Prerequisites
+
+| Tool | Purpose |
+|---|---|
+| Docker + Docker Compose | Weaviate vector store + Redis cache |
+| Python 3.11+ | Backend |
+| [uv](https://docs.astral.sh/uv/) | Python package manager |
+| Node.js 18+ | Frontend |
+| Google API key | Gemini LLM + embeddings |
+| Cohere API key | Reranking |
+
+### 1. Clone and configure environment
 
 ```bash
-# Start infrastructure
-docker compose up -d
-
-# Install dependencies
-uv sync
-
-# Ingest all sources
-uv run python scripts/ingest.py --source dialogsum
-uv run python scripts/ingest.py --source conversations
-uv run python scripts/ingest.py --source synthetic
-uv run python scripts/ingest.py --source battlecards
-uv run python scripts/ingest.py --source playbooks
-
-# Start API
-uv run uvicorn src.salessense.api.app:app --reload --port 8000
-
-# Run evaluation
-uv run python scripts/evaluate.py
+git clone <repo-url>
+cd salessense
+cp .env.example .env
 ```
 
-## Environment Variables
-
-Copy `.env.example` to `.env` and fill in:
+Edit `.env` and fill in your keys:
 
 ```
-GOOGLE_API_KEY=       # Gemini LLM + embeddings
-COHERE_API_KEY=       # Cohere Rerank
+GOOGLE_API_KEY=<your-google-api-key>
+COHERE_API_KEY=<your-cohere-api-key>
 WEAVIATE_URL=http://localhost:8080
 REDIS_URL=redis://localhost:6379
 ```
 
-## Demo
+### 2. Start infrastructure
 
-```python
-from salessense.generation.chain import rag_query
-
-result = rag_query("What are the key pain points for SaaS enterprise deals?")
-print(result["answer"])
+```bash
+docker compose up -d
 ```
 
-**Output:**
-```
-Based on the provided deal notes, the key pain points for SaaS enterprise deals consistently revolve around:
+This starts:
+- **Weaviate** on `localhost:8080` (vector store, persisted via Docker volume)
+- **Redis** on `localhost:6379` (query cache, TTL: 1 hour)
 
-1. Fragmented Data and Disparate Systems: Enterprises struggle with data silos and legacy
-   systems (ERP, CRM, project management tools) that do not communicate effectively,
-   necessitating manual data entry and reconciliation.
+### 3. Install backend dependencies
 
-2. Lack of Real-time, Unified Visibility: Inability to gain a holistic, real-time view of
-   operations hinders executive decision-making and strategic initiatives.
-
-3. Operational Inefficiency and High Costs: Manual processes lead to significant time waste,
-   delays, bottlenecks, and high operational costs.
-
-4. High Error Rates and Compliance Risk: Manual processes are prone to errors, impacting
-   reporting accuracy and increasing compliance risk.
-
-5. Poor Client Experience: Slow client onboarding directly impacts satisfaction and loyalty.
-
-6. Hindered Growth and Strategic Goals: These challenges impact project delivery timelines,
-   growth targets, accurate forecasting, and digital transformation goals.
+```bash
+uv sync
 ```
 
-Retrieved 20 candidates via hybrid search → reranked to top 5 via Cohere (scores: 0.990–0.996).
+### 4. Ingest the corpus
+
+Run each source in order. Ingestion downloads datasets from HuggingFace, chunks them, embeds via Gemini, and upserts into Weaviate.
+
+```bash
+uv run python scripts/ingest.py --source dialogsum       # ~14,500 dialogues
+uv run python scripts/ingest.py --source conversations   # ~1,000 support transcripts
+uv run python scripts/ingest.py --source synthetic       # ~6,500 deal notes
+uv run python scripts/ingest.py --source battlecards     # markdown files in data/raw/battlecards/
+uv run python scripts/ingest.py --source playbooks       # PDFs in data/raw/playbooks/
+```
+
+> **Note:** Ingestion calls the Gemini embedding API in batches. The free tier allows ~100 req/min — ingestion of the full corpus takes ~10–15 minutes. Rate limits are handled automatically with exponential backoff.
+
+Once ingested, data is persisted in the Weaviate Docker volume and does not need to be re-ingested unless you delete the volume.
+
+### 5. Start the backend API
+
+```bash
+uv run uvicorn src.salessense.api.app:app --reload --port 8000
+```
+
+API is now available at `http://localhost:8000`. Verify with:
+
+```bash
+curl http://localhost:8000/health
+# {"status": "ok"}
+```
+
+### 6. Start the frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend is available at `http://localhost:3000`.
+
+To point the frontend at a different backend URL, edit `frontend/.env.local`:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
+
+---
+
+## Using the Frontend
+
+Open `http://localhost:3000` in your browser.
+
+- Type a question in the input box at the bottom and press **Enter** (or **Shift+Enter** for a new line)
+- The answer appears in the chat thread with citations from the corpus
+- Click **Sources** under any answer to expand the retrieved documents — each source shows the doc type, industry, ICP, relevance score, and a text snippet
+- Repeated queries are served instantly from cache (indicated by a **Cached** badge)
+
+**Example questions to try:**
+- *What are the key pain points for SaaS enterprise deals?*
+- *What objections do SMB buyers raise and how should I handle them?*
+- *How does the MEDDIC framework apply to mid-market deals?*
+- *What differentiates us from Gong in a competitive deal?*
+
+---
 
 ## API Usage
 
@@ -122,7 +166,7 @@ curl -X POST http://localhost:8000/api/v1/query \
 **Response:**
 ```json
 {
-  "answer": "SMB buyers frequently raise the following objections:\n\n1. Cost: They often state that the cost is too high for an SMB. Budget is consistently highlighted as a factor.\n2. Implementation Complexity/Disruption: Concerns about implementation being too complex, causing downtime, or disrupting production.\n3. Resistance to Change/User Adoption: Buyers express that their team is resistant to change or that previous systems were too complicated.\n4. Existing Systems/Status Quo: They may cite existing tools (e.g., QuickBooks, spreadsheets) as sufficient.",
+  "answer": "SMB buyers frequently raise the following objections:\n\n1. Cost: Budget is consistently highlighted as a factor.\n2. Implementation Complexity: Concerns about downtime and disrupting production.\n3. Resistance to Change: Teams resistant to change or burned by past failed rollouts.\n4. Existing Systems: May cite QuickBooks or spreadsheets as sufficient.",
   "sources": [
     {
       "source_id": "synthetic_813df5576e8a",
@@ -140,6 +184,48 @@ curl -X POST http://localhost:8000/api/v1/query \
 
 Repeated queries are served from Redis cache (`"cached": true`) with no LLM or embedding calls.
 
+**Optional filter by doc type:**
+```bash
+curl -X POST http://localhost:8000/api/v1/query \
+  -H 'Content-Type: application/json' \
+  -d '{"question": "MEDDIC qualification steps", "filters": {"doc_type": "playbook"}}'
+```
+
+---
+
+## Demo (Python)
+
+```python
+from salessense.generation.chain import rag_query
+
+result = rag_query("What are the key pain points for SaaS enterprise deals?")
+print(result["answer"])
+```
+
+**Output:**
+```
+Based on the provided deal notes, the key pain points for SaaS enterprise deals consistently revolve around:
+
+1. Fragmented Data and Disparate Systems: Enterprises struggle with data silos and legacy
+   systems (ERP, CRM, project management tools) that do not communicate effectively.
+
+2. Lack of Real-time, Unified Visibility: Inability to gain a holistic, real-time view of
+   operations hinders executive decision-making.
+
+3. Operational Inefficiency and High Costs: Manual processes lead to significant time waste,
+   delays, bottlenecks, and high operational costs.
+
+4. High Error Rates and Compliance Risk: Manual processes are prone to errors, impacting
+   reporting accuracy and increasing compliance risk.
+
+5. Hindered Growth and Strategic Goals: These challenges impact project delivery timelines,
+   growth targets, and digital transformation goals.
+```
+
+Retrieved 20 candidates via hybrid search → reranked to top 5 via Cohere (scores: 0.990–0.996).
+
+---
+
 ## Evaluation
 
 Ragas metrics evaluated against a 200-question golden set:
@@ -149,3 +235,7 @@ Ragas metrics evaluated against a 200-question golden set:
 - `context_recall` ≥ 0.75
 
 CI gate enforced via GitHub Actions on every push.
+
+```bash
+uv run python scripts/evaluate.py
+```
