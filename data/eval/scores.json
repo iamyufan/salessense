@@ -1,0 +1,9 @@
+{
+  "scores": {
+    "faithfulness": 0.9276983427252868,
+    "answer_relevancy": 0.7689797924352721,
+    "context_precision": 0.6899722221816242,
+    "context_recall": 0.7233333333333333
+  },
+  "passed": false
+}

@@ -41,7 +41,10 @@ def run_eval(golden_set_path: str | Path) -> EvalResult:
     Golden set format (JSON array):
       [{"question": str, "ground_truth": str}, ...]
     """
-    golden = json.loads(Path(golden_set_path).read_text())
+    golden = [
+        item for item in json.loads(Path(golden_set_path).read_text())
+        if not item.get("flagged", False)
+    ]
     logger.info(f"Running eval on {len(golden)} questions")
 
     rows = {"question": [], "answer": [], "contexts": [], "ground_truth": []}
@@ -74,7 +77,10 @@ def run_eval(golden_set_path: str | Path) -> EvalResult:
     )
 
     ragas_result = evaluate(dataset=dataset, metrics=METRICS, llm=llm, embeddings=embeddings)
-    scores = {metric.name: float(ragas_result[metric.name]) for metric in METRICS}
+    scores = {}
+    for metric in METRICS:
+        val = ragas_result[metric.name]
+        scores[metric.name] = float(sum(val) / len(val)) if isinstance(val, list) else float(val)
 
     passed = all(v >= settings.eval_pass_threshold for v in scores.values())
 

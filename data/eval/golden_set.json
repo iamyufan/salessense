@@ -1,0 +1,1402 @@
+[
+  {
+    "question": "What is the correct procedure for Person2 to collect money when passing 'go', according to the rules explained by Person1?",
+    "ground_truth": "Person2 must ask Person1, who is the banker, for the money.",
+    "source_chunk_id": "326f69e1-926e-497f-9f15-a02225c6e36c",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What was the final agreed-upon price for the five autographed Elvis records #Person1# purchased?",
+    "ground_truth": "#Person1# purchased five autographed Elvis records for eighty-five bucks.",
+    "source_chunk_id": "0b61e75d-8909-460e-ac5c-ccc174da8bd4",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the account holder's name?",
+    "ground_truth": "The account holder's name is Patrick Dean.",
+    "source_chunk_id": "7d6e72bc-3db6-412d-9135-1af58cce1035",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is our strategy for addressing potential client objections regarding the cost of our AI-Powered platform?",
+    "ground_truth": "Our strategy is to pivot to ROI, highlighting the immense savings from reduced false positives, fewer manual reviews, and avoiding regulatory fines. We will demonstrate how our platform pays for itself within 12-18 months.",
+    "source_chunk_id": "6f654a70-21ed-4623-8808-37be5f2c1438",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the two main areas we need to focus on to close this opportunity?",
+    "ground_truth": "We need to stay sharp on demonstrating tangible value and addressing their integration concerns head-on.",
+    "source_chunk_id": "65acb783-b88e-4348-84d2-4ee9711322f5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is Person2's (Steven's) current investment strategy after his negative experience with the internet business?",
+    "ground_truth": "Person2 (Steven) has changed his strategy and is now investing in good companies.",
+    "source_chunk_id": "3fc4bc36-78cc-4e7a-9729-4eaa2974cefe",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "When is the technical deep-dive call scheduled, and who from our team will be present to discuss integration specifics?",
+    "ground_truth": "The technical deep-dive call is scheduled for November 1st (Next Week). Our Senior Solutions Architect will be present to address integration specifics, security, and scalability.",
+    "source_chunk_id": "2e6866dc-cba4-448c-8d85-bd5385b998d6",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are Maria Rodriguez's key concerns or areas of focus regarding the \"ConnectCare 360\" suite?",
+    "ground_truth": "Maria Rodriguez's focus is on streamlining daily workflows, reducing administrative errors, and improving staff efficiency.",
+    "source_chunk_id": "f85c2016-587e-45b5-ab04-62f67c14f71a",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary concerns of Emily Carter, the Chief Risk Officer at Apex Financial Group?",
+    "ground_truth": "Emily Carter's primary concerns are regulatory compliance (KYC/AML) and mitigating financial losses due to fraud. She is also the ultimate decision-maker on the budget for this deal.",
+    "source_chunk_id": "27a39297-be4f-4a9f-8352-3e80844795d7",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the primary way we can address concerns about integration complexity, especially with Emily and her team?",
+    "ground_truth": "To address concerns about integration complexity, we should stress our robust API documentation, dedicated integration support team, and reference successful, similar integrations we've done for other clients, such as Summit Wealth Management.",
+    "source_chunk_id": "c07a9f7b-f262-43ed-a9d8-0921537ad8e5",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What does Kelly want to discuss with Person1 regarding her services?",
+    "ground_truth": "Kelly wants to talk about her new rate increases.",
+    "source_chunk_id": "0e45f0ae-5be0-411c-b91a-5ed814678b57",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "When is the technical deep dive scheduled, and who from Horizon will be attending?",
+    "ground_truth": "The technical deep dive is scheduled for June 24th at 10 AM PST with Sarah, Mark, and Emily from Horizon.",
+    "source_chunk_id": "0d6cb095-ee6b-43f1-919e-0cfdbe72aba6",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is our primary competitive advantage against Veeva Systems, especially concerning data analytics?",
+    "ground_truth": "While Veeva Systems is strong in eTMF and CTMS, their data analytics capabilities across disparate trial sources often require significant custom development to achieve the real-time, predictive insights that our AI engine offers out-of-the-box.",
+    "source_chunk_id": "2ad65319-fcfd-4abe-82a5-79b4729a2b95",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the specific quantifiable benefits ConnectFlow will provide to Apex Digital Marketing?",
+    "ground_truth": "ConnectFlow will help Apex reduce internal communication overhead by an estimated 25%, significantly improve client satisfaction leading to higher retention, and enable them to take on more clients efficiently without sacrificing quality.",
+    "source_chunk_id": "63483cb4-1d27-48ee-b471-d8e00e8b136d",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is Apex currently using for their data management and analytics?",
+    "ground_truth": "Apex is currently using a combination of manual processes and a legacy data warehouse solution from DataVault Corp.",
+    "source_chunk_id": "69b3d120-f382-4d6b-a3f2-61a23e109141",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "When is the deep-dive technical demo scheduled for Globex, and who are the key individuals from their team we need to involve?",
+    "ground_truth": "The deep-dive technical demo is scheduled for November 2nd. We need to involve Sarah, Mark, Anya, and relevant department heads, including John Miller, from Globex's team.",
+    "source_chunk_id": "e664e7e8-d6bc-448e-9c3f-985bf7e3bae6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How much money did Person2 withdraw from their account?",
+    "ground_truth": "Person2 withdrew 10,000 RMB.",
+    "source_chunk_id": "0bf413dd-43d3-48c8-9d4e-6260f5d22d6f",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Sarah Chen's primary concerns and areas of focus for our solution at Apex Financial?",
+    "ground_truth": "Sarah Chen, the CIO, is primarily focused on the technical viability and scalability of our solution, as well as how it integrates with Apex Financial's existing, somewhat antiquated, core banking infrastructure.",
+    "source_chunk_id": "ffba0f18-6afb-4806-933a-4ea66b06e3f3",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "When is our next call with the client scheduled, and who from their team will be attending?",
+    "ground_truth": "The next call is scheduled for Thursday, October 26th, at 11:00 AM EST, and Sarah, Mark, and David will be attending.",
+    "source_chunk_id": "59eb4648-fd37-4a5f-98b6-6f93d38ef402",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the common perceptions or drawbacks associated with Pega, according to the competitive landscape assessment?",
+    "ground_truth": "Pega is often perceived as more complex and requiring extensive customization.",
+    "source_chunk_id": "f831f54f-22a0-4e77-84d7-f2883fb59e43",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How is Canadian ice wine made?",
+    "ground_truth": "It's made from naturally frozen grapes.",
+    "source_chunk_id": "bf77c4e8-513e-42c5-a9e5-e29aca534120",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary concerns for Dr. Emily Carter, the Chief Medical Officer at Northwood Health Systems?",
+    "ground_truth": "Dr. Emily Carter is passionate about improving patient engagement, reducing physician burnout from administrative tasks, and ensuring better follow-up care. Her main concern is patient outcomes and provider satisfaction.",
+    "source_chunk_id": "643bc8a2-d870-47dd-9ee8-d35bcc6895be",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What was Person2's perspective on the fun of painting and unexpected outcomes?",
+    "ground_truth": "Person2 stated that part of the fun of painting is discovering what you can do with a little imagination, taking some risks, and trying to do new things. They also believed that sometimes the most beautiful things result from artistic accidents, which applies to almost all interesting things.",
+    "source_chunk_id": "ccf55bf8-1315-4339-bb48-121b3dead25c",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How does Green Peace conduct its protests against radioactive waste dumping?",
+    "ground_truth": "Green Peace uses a few small boats to harass dumping ships. They circle around the ships, get in the way when the ships try to dump drums of nuclear waste, talk to the men, and yell at them to stop, generally making themselves a nuisance.",
+    "source_chunk_id": "7ef043fa-05ab-4e87-a625-aa174ec7ce61",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Why does the guest want to change their room?",
+    "ground_truth": "The guest reserved a non-smoking room, but the current room has a strong smell of smoke that they cannot endure.",
+    "source_chunk_id": "02f72707-53dd-4473-a117-23321290c7a7",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How does our solution differentiate itself from the other vendors PGI has considered?",
+    "ground_truth": "Our solution is positioned as a robust, specialized MES that's less disruptive than a full ERP overhaul but more scalable and integrated than a niche player.",
+    "source_chunk_id": "48ba56cd-7f66-431e-ba8b-defc4306fc42",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "To whom does Ella Grady report in the customer service department?",
+    "ground_truth": "Ella Grady reports to the customer service manager David.",
+    "source_chunk_id": "c0bd4a82-22fa-4868-8cd5-aaa26ae949e1",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the problem Sharon is calling about regarding the package?",
+    "ground_truth": "The package that was picked up about an hour ago still hasn't reached its destination, and Mr. Reynolds is concerned.",
+    "source_chunk_id": "9a83bf43-3c1f-486b-87c0-87c109696349",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Laura's immediate plans for retrieving her personal items?",
+    "ground_truth": "Laura states she will send her sister to pick up the rest of her things next week.",
+    "source_chunk_id": "7ec8944c-34fb-4a48-ab79-a6c8aebd4a74",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the key differentiators of our platform compared to competitors like Seismic and Highspot?",
+    "ground_truth": "Our platform's superior AI-driven content recommendations that go beyond simple tagging, our advanced predictive analytics for understanding content effectiveness, and our flexible integration capabilities that often slot in better with complex enterprise environments. We are also more focused on proactive guidance than just being a content repository.",
+    "source_chunk_id": "46cbcf34-8a9c-4392-aa51-9cc7f3ac3c3a",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who are our main competitors in the freight brokerage industry, and what are our key differentiators against each?",
+    "ground_truth": "Our primary competitors are the status quo (manual processes) and generic CRMs like Zoho, which require significant customization. We also compete with a smaller niche player named FreightPath. We differentiate from the status quo and Zoho by being purpose-built for freight brokerage, offering industry-specific features, and being an out-of-the-box solution that delivers immediate value without extensive setup. Against FreightPath, our platform offers superior analytics and more robust integration capabilities.",
+    "source_chunk_id": "61b3b0f2-e50a-4b78-ad29-33a04b8dbef4",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific aspect of the proposal does Dr. Emily Chen want to discuss further during the next touchpoint?",
+    "ground_truth": "Dr. Emily Chen wants to dive deeper into the ROI for the integrated billing module.",
+    "source_chunk_id": "98db4141-c48f-483f-8298-a869bb349968",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How should I address integration concerns, especially if Michael brings them up?",
+    "ground_truth": "For Michael, I should emphasize our robust API capabilities, dedicated integration team, and examples of successful integrations with legacy systems and QuickBooks.",
+    "source_chunk_id": "2e4f51fc-18a6-4584-9dac-495c5fac9730",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the main potential objections the client might raise and how do we plan to address each of them?",
+    "ground_truth": "The potential objections are Cost, Integration Complexity, and Change Management. To address Cost, we plan to quantify their current operational costs (fuel, labor, customer churn) against our projected savings to demonstrate ROI. For Integration Complexity, we will emphasize our flexible APIs, dedicated integration team, and propose a phased implementation approach. Regarding Change Management, we will highlight our intuitive user experience and propose comprehensive training as part of the pilot to demonstrate immediate benefits.",
+    "source_chunk_id": "2a62ef5c-0f44-4e08-af6d-665a3baf8d73",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the specific target for reducing no-shows that we've proposed with the HealthFlow Suite?",
+    "ground_truth": "We are targeting to significantly reduce no-shows to under 5%.",
+    "source_chunk_id": "ac7d9b18-5e90-4959-bdf2-a8c5bec9a89d",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What items should #Person2# bring for the outing?",
+    "ground_truth": "#Person2# should bring their tent and enough food and water.",
+    "source_chunk_id": "2c157821-bf61-4c21-8136-f8caad42644d",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is Global Bank Corp's current CSAT score, and what are some of the key factors driving it down according to the deal notes?",
+    "ground_truth": "Their current CSAT score is 68%. Key factors driving it down include sky-high call center volumes, long wait times, significant agent burnout, and agents 'swivel-chairing' between 5-7 disparate applications to handle a single customer query.",
+    "source_chunk_id": "a2d28b99-4580-4c7a-b060-cbaa4ad80787",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the targeted timeline for delivering the formal proposal and when are we hoping for a decision?",
+    "ground_truth": "The formal proposal is targeted for delivery by the end of November with a clear ROI analysis. We are hoping for a decision by end of Q4 2023 or early Q1 2024.",
+    "source_chunk_id": "9c296029-1b69-4e25-8111-ad9a5fe1f7c6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How will we address John's potential concerns about the cost or budget of the Velocity AI platform?",
+    "ground_truth": "To address John's cost/budget concerns, we will focus heavily on the ROI model, emphasizing reduced rep ramp time and increased win rates, and propose a phased rollout strategy to allow them to see value quickly before a full global investment.",
+    "source_chunk_id": "785cd94e-3f1c-4386-9aba-aed4e47f7ba8",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What kind of assistance has the European Union provided for the drought in Africa?",
+    "ground_truth": "The European union has sent several plants with relief supplies.",
+    "source_chunk_id": "13be340c-02ab-43d8-be76-d79edd689981",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the client's stated concerns about Siemens Opcenter?",
+    "ground_truth": "The client views Siemens Opcenter as a more 'heavy lift' regarding implementation and ongoing maintenance, especially for their IT team.",
+    "source_chunk_id": "d1776c4d-4f6c-46ed-a66e-e22fd5c6643e",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is our strategy for handling potential client objections regarding the initial cost of the ProdMaster 360 system?",
+    "ground_truth": "To handle potential objections about the initial investment, we should reiterate the clear ROI projected from reduced errors, increased efficiency, and inventory optimization, framing it as an investment in future profitability rather than an expense. We also have flexible payment terms available.",
+    "source_chunk_id": "f443518d-f4aa-45a8-81a2-6dcd8a0e58db",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Who are the attendees for the follow-up discovery call scheduled for June 25th?",
+    "ground_truth": "The follow-up discovery call on June 25th will be attended by David Chen, Emily Rodriguez, and Anya Sharma.",
+    "source_chunk_id": "38bdeff9-4b87-4ffc-96c4-80a356700d10",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What potential objection is anticipated from Maria Rodriguez, and how should we plan to address it?",
+    "ground_truth": "Maria Rodriguez (CFO) might push back on the upfront investment, specifically regarding cost. We plan to handle this by reiterating the detailed ROI analysis, emphasizing the long-term savings and phased rollout options to align costs with realized value.",
+    "source_chunk_id": "abc119ca-2547-447f-91b4-5bd4e3fa2ad9",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What options did the agent offer Jane Doe for her delayed Baby Food order?",
+    "ground_truth": "The agent offered Jane a refund for the order or to reship it to her at no additional cost.",
+    "source_chunk_id": "23e64a5c-651a-490b-853d-4432c764d660",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the main weaknesses of Blue Yonder's TMS solution compared to our platform?",
+    "ground_truth": "Blue Yonder's solution is less agile and lacks our platform's advanced AI/ML predictive capabilities and modern, intuitive UI. It also can't match our true end-to-end intelligence and superior user experience without a massive overhaul.",
+    "source_chunk_id": "fb8ec35b-9472-43ec-ae82-fa947f82f41f",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Unity Credit Union's primary pain points due to their legacy systems?",
+    "ground_truth": "Unity Credit Union's primary pain points include manual reconciliation taking 3-4 days each month, rising fraud losses from easily bypassed rules-based detection, scalability concerns hindering their projected member growth, and a heavy burden from time-consuming and error-prone manual data aggregation for regulatory reports.",
+    "source_chunk_id": "859b1f64-4858-46d6-a461-8eba8178b720",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the plan to address Sarah's concern about user adoption of the LogiTrack Pro TMS?",
+    "ground_truth": "To address Sarah's concern about user adoption, the plan is to stress our comprehensive onboarding, ongoing support, and the system's intuitive, modern interface, ensuring a seamless transition and high user acceptance.",
+    "source_chunk_id": "a4005c3f-1626-41f8-a4a0-e8926d895d49",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is BrightFuture Marketing's biggest challenge or headache with their current systems?",
+    "ground_truth": "Their biggest headache is a severe lack of centralized data. Client information, sales leads, and project updates are scattered across an array of spreadsheets, email, and a basic, clunky project management tool.",
+    "source_chunk_id": "56fcec61-b4f1-448e-87f0-a4d99455f1bc",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Did the customer express any further questions or concerns after the agent offered assistance?",
+    "ground_truth": "No, the customer only replied with 'Thank you, you too. Goodbye!'",
+    "source_chunk_id": "1fd0dd2b-1b3b-43ba-9f59-0a67dcb14d48",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What was the final instruction #Person1# gave to #Person2# during the driving practice?",
+    "ground_truth": "#Person1# told #Person2# to try parking.",
+    "source_chunk_id": "14df6670-b186-4db8-a33a-6006f9346f54",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What was the reason the customer couldn't change their password initially, and how was the issue resolved?",
+    "ground_truth": "The customer's password change failed due to a temporary glitch in the system. The technical team identified and resolved the issue, after which the customer was able to successfully change their password.",
+    "source_chunk_id": "67a880eb-8ac1-461e-a314-81862cd5307e",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What was #Person2#'s minor subject?",
+    "ground_truth": "Psychology.",
+    "source_chunk_id": "83da7140-5460-4562-be98-f861211457aa",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What country has Person2 booked a hotel in for her holiday?",
+    "ground_truth": "Person2 has booked a hotel in Turkey.",
+    "source_chunk_id": "2453b073-fe86-4865-9171-3bdd92eaa742",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the main pain points Apex Logistics Solutions is currently facing?",
+    "ground_truth": "Apex is struggling with three main areas: Lack of Sales Visibility (Sarah can't get reliable pipeline data or accurate sales forecasts, everything is manual and error-prone), Inefficient Sales Process (reps spend too much time on data entry and reporting, pulling them away from selling, and there's no standardized process), and Disparate Data & Scalability (customer data is scattered, leading to a fragmented view and hampering their ability to scale efficiently).",
+    "source_chunk_id": "69c47fab-def2-4fea-8abe-278e3754795d",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What was #Person2#'s initial sentiment towards Joe?",
+    "ground_truth": "#Person2# 'took a shine to him when we met for the first time.'",
+    "source_chunk_id": "2dcf64cd-aafa-4298-b401-8de971a1d253",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What specific financial benefits can GBS expect from implementing the QuantumShield AI Fraud Prevention Suite?",
+    "ground_truth": "GBS can expect a 30-40% reduction in detected fraud losses within the first year and a 25% reduction in operational costs by automating manual review tasks.",
+    "source_chunk_id": "ac958411-2bdf-4357-b214-65b18d7fa789",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What specific pain points did Sarah Jenkins, Head of Compliance, articulate regarding Apex Financial Solutions' current operations?",
+    "ground_truth": "Sarah articulated several critical challenges: manual AML/KYC checks, lack of real-time regulatory updates, high internal audit costs, and scaling compliance, which is hindering their aggressive growth targets without significant headcount increases.",
+    "source_chunk_id": "7ed34b39-09be-407e-ae8e-ffc4ab948bcf",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the distinction between happiness and satisfaction, according to Lisa?",
+    "ground_truth": "Lisa explains that happiness often means how happy you feel with your life now, whereas satisfaction often means that people have to take a step back from their lives and look at them in general.",
+    "source_chunk_id": "cebd917a-5f36-4f7d-890d-9704571576e0",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Can you list the key features and rental terms of the house advertised?",
+    "ground_truth": "It is a two-bedroom, unfurnished house with a fenced yard and a one-car garage. Pets are allowed. The rent is $325 plus deposit, and it is available now.",
+    "source_chunk_id": "a5bd85de-fde4-4e27-8ca7-9065f3a1a339",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What led to Mark Twain's job as a river pilot ending?",
+    "ground_truth": "His job as a river pilot ended due to the outbreak of the Civil War.",
+    "source_chunk_id": "4a13956b-ef20-4de0-baa6-013a2f88445a",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are our key differentiators against competitors like WellSky and Homecare Homebase?",
+    "ground_truth": "CareFlow Pro differentiates itself with superior ease of use, a more modern mobile EVV experience, dedicated and personalized customer support, and pricing flexibility for SMBs versus enterprise solutions.",
+    "source_chunk_id": "a82c88e2-f08f-40e3-9676-77beda5ee27f",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the current deal stage with Unified Health Systems and what platform did we propose?",
+    "ground_truth": "We are currently in the Negotiation stage. We proposed our comprehensive proposal for the AcuityFlow Clinical Workflow Optimization Platform.",
+    "source_chunk_id": "a106784b-3b73-453d-9231-74b870d02782",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the strategy for handling client concerns about integrating LogiFlow Pro with their current accounting software, specifically QuickBooks Enterprise?",
+    "ground_truth": "The strategy is to highlight our robust API and successful integrations with similar systems, and offer a case study if needed, addressing concerns about integrating with existing accounting software like QuickBooks Enterprise.",
+    "source_chunk_id": "5ef1837b-e4a3-4f16-b2ed-fa6d5ee7bd74",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary technical concerns of Emily White, the IT Director at Acme Innovations?",
+    "ground_truth": "Her concerns revolve around integration with their existing tech stack (especially Salesforce), data security, compliance, and overall system reliability.",
+    "source_chunk_id": "7991e704-fc71-4299-81b8-e28f7c8e0b78",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Can the customer's lost air ticket be reissued, given they have a copy?",
+    "ground_truth": "Yes, according to the customer, the manager confirmed it can be reissued because they have a copy of the lost ticket. I will call the manager to verify.",
+    "source_chunk_id": "20aa1b09-5653-48d0-8bee-371efba7b4a0",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What does Person2 say they are in the museum to do?",
+    "ground_truth": "Person2 says they are in the museum to enjoy the great paintings by Picasso.",
+    "source_chunk_id": "4db1afd6-736e-4c73-800b-f487f0167bca",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What documentation do I need to bring to fill out an application form for the apartment?",
+    "ground_truth": "The apartment manager will need to see your driver's license.",
+    "source_chunk_id": "f368cad7-e80b-43b0-8dc8-cc5d372820ff",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are David Lee's primary concerns as the IT Director for Precision Manufacturing?",
+    "ground_truth": "David Lee, the IT Director, is concerned with integration into their existing ERP (NetSuite) and MES, data security, and overall scalability.",
+    "source_chunk_id": "6f5823a5-ffb2-4745-86d2-f6f78ef8aa1c",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Which key stakeholder at Global Freight Solutions has not yet been directly engaged, and when will she be involved in the sales process?",
+    "ground_truth": "Emily White, the CFO, has not been engaged directly yet, but Sarah Chen will bring her in at the Proof of Concept (PoC) review stage.",
+    "source_chunk_id": "4a6ec211-3991-4ddd-ad98-599da1809397",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the typical weather patterns in the different regions of England?",
+    "ground_truth": "The weather in England is often cold in the North, windy in the East, often wet in the West, and sometimes warm in the South.",
+    "source_chunk_id": "d2d6b7e1-10db-418e-a873-79236feb5696",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the primary date for the follow-up call with InnovateTech, and what key topics will be discussed?",
+    "ground_truth": "The follow-up call is scheduled for the week of November 13th. Key topics to be discussed include addressing any questions from InnovateTech's internal review and a deep-dive into Axiom's integration capabilities with their existing CRM (Salesforce) and finance systems.",
+    "source_chunk_id": "ac3501e4-7a26-464f-af8e-752635dab58d",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How should I handle concerns about the initial investment cost of HealthFlow Pro?",
+    "ground_truth": "I should emphasize the long-term ROI through increased efficiency, reduced operational costs, and improved revenue capture. I\u2019ll also discuss flexible payment structures and phased implementation options.",
+    "source_chunk_id": "7b11d6bd-962e-454a-8a83-e145c3f812ab",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Just to confirm, you're looking for a double room for one night?",
+    "ground_truth": "Yes, #Person2# requested 'A double room' and stated 'We're only staying overnight. We'll check out tomorrow morning.'",
+    "source_chunk_id": "fdbca3db-3a7b-489a-8bfc-cfa0c7bffbb3",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the current deal stage for Apex Logistics Solutions and what is the anticipated next step?",
+    "ground_truth": "The deal is currently in the \"Proposal Submitted\" stage. The sales rep is feeling confident about moving into the \"Negotiation\" phase next week.",
+    "source_chunk_id": "63dcd62e-a420-47ba-b79e-3bd01e3d1fa4",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the purpose and benefit of using the training card?",
+    "ground_truth": "The training card allows you to keep track of how much weight you use on each machine and helps you keep track of your progress. It also reminds you what is a suitable weight for each machine.",
+    "source_chunk_id": "93b87826-0ccd-4484-928f-232b57a3b927",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Who is our primary champion at Sterling Wealth Management, and what challenges is she specifically looking to address?",
+    "ground_truth": "Our primary champion at Sterling Wealth Management is Emily Davis, the Head of Operations. She is frustrated with manual processes and is looking for efficiency gains and a smoother client journey.",
+    "source_chunk_id": "199bae43-b609-4402-a54e-aae12ae691df",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Mark Thompson's primary focuses and Sarah Jenkins' key motivations regarding their current systems?",
+    "ground_truth": "Mark Thompson, the Owner/CEO, is primarily focused on improving profitability, ensuring long-term scalability, and reducing daily operational headaches. Sarah Jenkins, the Production Manager, is highly motivated by the potential for improved scheduling, accurate inventory, and streamlined workflows.",
+    "source_chunk_id": "68283f71-ef30-4db4-b401-1e77c21dd066",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Why is #Person1# rushing #Person2# to leave for the airport?",
+    "ground_truth": "#Person1# is rushing #Person2# because the taxi driver was asked to wait only two minutes, not twenty.",
+    "source_chunk_id": "0e673dec-8bf6-46b2-ba06-8ce49dbcb592",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How will we address concerns about integrating the Synergy Wealth Platform with a prospect's heavily customized Salesforce environment?",
+    "ground_truth": "We will emphasize our proven integration methodology, dedicated professional services team, and robust API documentation. We will also highlight that we have done similar integrations with other highly customized Salesforce instances.",
+    "source_chunk_id": "8fc85894-2e6c-464f-b5eb-32c121ec1e9b",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How many hours per week can sales reps expect to save on administrative tasks by using the SalesPilot platform?",
+    "ground_truth": "Our intelligent assistant automatically logs activities and updates Salesforce fields, saving reps 5-7 hours/week in admin tasks.",
+    "source_chunk_id": "b68495c2-ae9d-409a-a2e5-312f836fe3d7",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the key quantifiable value propositions we are presenting to TrendyThreads?",
+    "ground_truth": "The key value proposition is significant time savings for Sarah and Alex (up to 10-15 hours/week), plus a projected 15-20% increase in customer lifetime value through smarter, automated engagement.",
+    "source_chunk_id": "79f6298a-e4c1-4794-969a-d612400cc553",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How long will the refund process take once the company receives the returned electric kettle?",
+    "ground_truth": "The refund process can take up to 5-7 business days from the date BrownBox receives the product.",
+    "source_chunk_id": "1e3a85ec-1aa8-483f-a0c7-363bbfed690f",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the targeted close date for this deal with GlobalFin?",
+    "ground_truth": "The target close date is the end of Q2 (June 30th).",
+    "source_chunk_id": "5fbc0448-70eb-48b1-b4e7-34825efd851f",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How does the customer's backpack close?",
+    "ground_truth": "It's straps closed and has a buckle in the front.",
+    "source_chunk_id": "8f7a8d59-865a-4cb5-954e-262c7b9a7adf",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is essential for the advice slip before Person1 can process the International Settlement payment?",
+    "ground_truth": "The advice slip needs to be stamped and signed at the bottom right-hand corner to show agreement to pay the printed amount.",
+    "source_chunk_id": "6081affb-67dd-453c-bf12-3775da3a60a6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Did the customer require any further assistance from the agent?",
+    "ground_truth": "No, the customer explicitly stated, \"No, that's all. Thank you for your help.\"",
+    "source_chunk_id": "e3cbba57-006b-4e19-a79e-5c64f2f86f48",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the main objections David and Sarah are likely to raise, and how should we plan to address each of their concerns?",
+    "ground_truth": "David (CFO) is expected to focus heavily on cost. We will address this by emphasizing the rapid ROI through reduced scrap, improved efficiency, and quicker delivery times, presenting a clear cost-benefit analysis, and exploring phased implementation options. Sarah (Production Director) will worry about implementation complexity/disruption. We will highlight our dedicated implementation team, phased rollout strategy, and comprehensive training program to minimize downtime and ensure smooth adoption.",
+    "source_chunk_id": "b3f33659-3656-434c-a151-e12d14adfe97",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Where is Richard's wife located?",
+    "ground_truth": "She is in Canada with their kids.",
+    "source_chunk_id": "d135aabe-46d1-44e2-a4db-815bd76eaa42",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What specific percentage reduction in false positives is Sentinel AI aiming for?",
+    "ground_truth": "Sentinel AI is targeting a 50%+ reduction in false positives.",
+    "source_chunk_id": "41458542-e625-41be-b122-835d23878176",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How are we planning to address David's concerns regarding integration complexity in the upcoming discussions?",
+    "ground_truth": "For the next call, we will bring in our Solutions Architect to walk through our robust API capabilities, present successful integration case studies with similar legacy systems, and detail the technical support Axiom will receive. We can also propose a small-scale POC for a critical integration point if needed.",
+    "source_chunk_id": "787e3e3f-d73f-4423-85d0-e9c13dd8bb7d",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What specifically does Person1 not understand about the Campbell Project?",
+    "ground_truth": "Person1 does not understand the projected revenues of the Campbell Project.",
+    "source_chunk_id": "3fd39ee7-3b5a-4211-93c5-3b068b7a2e59",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary business challenges TrendThreads is facing due to their fragmented customer data?",
+    "ground_truth": "TrendThreads currently lacks a unified view of their customer, making it difficult to track a customer's journey from ad click to purchase across their website, mobile app, and email campaigns. This leads to high cart abandonment rates with no clear insight into specific drop-off points, generic marketing campaigns resulting in low engagement and conversion, missed upsell/cross-sell opportunities, and significant manual effort in trying to stitch together data.",
+    "source_chunk_id": "702fa5ea-335c-4a03-8c6a-0209b17dfe18",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary operational challenges that Peak Performance Physical Therapy is currently experiencing?",
+    "ground_truth": "Peak Performance Physical Therapy is experiencing inefficient scheduling, disjointed patient engagement due to a lack of an integrated patient portal, billing inaccuracies, limited operational visibility across all five clinics, and staff burnout from excessive administrative tasks.",
+    "source_chunk_id": "ffcc22e4-ba9e-4e03-8baf-2cd312574866",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is Mary Lou's main issue with her current job as an environmental lawyer?",
+    "ground_truth": "The only problem with her job is that the pay is quite low, so she's basically living hand to mouth every month.",
+    "source_chunk_id": "f57a0412-bf53-400e-84e7-7e8a47326680",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Who is our primary champion at GFS, and what are their main concerns?",
+    "ground_truth": "David Chen, the VP of Operations, is our primary champion. He is feeling the heat on efficiency and fuel costs.",
+    "source_chunk_id": "77814b54-dfd5-4e5e-9981-969f2cd9fbf4",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What solution was offered to the customer who was looking for the book 'Little Women'?",
+    "ground_truth": "The book 'Little Women' is currently sold out, but the salesperson offered to call the customer if they get one in stock, provided the customer leaves their name and telephone number.",
+    "source_chunk_id": "c35c8c7e-17f7-4730-949e-cfc952912ab4",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What traditional providers does AFG currently use for their payments infrastructure?",
+    "ground_truth": "AFG currently relies on Fiserv and SWIFT for their payments infrastructure.",
+    "source_chunk_id": "b5bacec2-2ef3-4c91-8943-c362f208031f",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the next step for Jane's issue and who will be following up with her?",
+    "ground_truth": "The issue will be escalated to the senior team, and they will get in touch with Jane shortly.",
+    "source_chunk_id": "a4318ab2-ac39-4215-ba9f-6ca15c7f3227",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How are we planning to address David Miller's likely concern about the upfront investment for the HealthFlow platform?",
+    "ground_truth": "To address David Miller's cost objection, we will counter with a strong, detailed ROI analysis showing accelerated payback periods from reduced clinician turnover, increased patient revenue, and operational savings. We will also highlight a potential phased approach to deployment.",
+    "source_chunk_id": "63b47f5d-a447-46eb-9c7d-f1bfa53e40f9",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the plan for removing the existing green carpet from the room?",
+    "ground_truth": "Person1 states that they can remove the carpet themselves. They explain that carpet is held down with carpet nails and just needs to be pulled hard to come up.",
+    "source_chunk_id": "3f1aa43a-5971-40e9-8b1d-9590585d9a23",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Maria Rodriguez's primary concerns and focus areas?",
+    "ground_truth": "Maria Rodriguez, the Production Manager, is focused on shop floor efficiency, real-time data, and reducing bottlenecks.",
+    "source_chunk_id": "e85c3777-f269-4ff3-b17f-3f33f69b51b3",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific drink did Mrs. Gao bring for her hosts, and what was Person2's comment about it?",
+    "ground_truth": "Mrs. Gao brought a bottle of Chinese Mao-tai. Person2 commented that they had heard \"it packs quite a punch.\"",
+    "source_chunk_id": "e1536a85-40ef-41cb-9083-ed2671e9a3f6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific cost reductions can GFL expect from implementing the OptiTMS Platform, according to the proposed value proposition?",
+    "ground_truth": "GFL can expect significant cost reductions, with specific examples of 10-15% fuel savings and a 20%+ reduction in administrative time, by implementing the OptiTMS Platform.",
+    "source_chunk_id": "299be59c-1ba9-4fbc-abed-14f0d4563e23",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the minimum monthly salary for a beginner who has a CPA certificate?",
+    "ground_truth": "Beginners with a CPA certificate can earn at least 2,000 a month.",
+    "source_chunk_id": "15736ca4-2414-4a25-bbc4-9d3705e05e57",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "When is the product demo scheduled for Harmony Health, and who from their team will be attending?",
+    "ground_truth": "The product demo is confirmed for November 2nd, 10:00 AM PST. Dr. Patel, Sarah Chen, and one of their lead nurses will be in attendance.",
+    "source_chunk_id": "31b8640a-6371-4cac-bd9a-7889ea3f10b5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the specific advantages we should highlight to differentiate our solution from Kyriba for GlobalBank?",
+    "ground_truth": "We should highlight our superior AI-driven reconciliation accuracy, true real-time global capabilities, and the flexibility of our API-first platform, which Kyriba often struggles to match given their older architecture.",
+    "source_chunk_id": "45966298-25e8-4a81-a6ff-f3b3651c270b",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary business challenges First Coast Credit Union is currently grappling with?",
+    "ground_truth": "First Coast Credit Union is grappling with manual fraud detection, a mounting compliance burden, and a suboptimal member experience due to slow fraud resolution.",
+    "source_chunk_id": "48db34c3-634a-4541-92aa-497643d3d204",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the key benefits and improvements our AI-powered Logistics Optimization Platform (LOP) is projected to deliver for Global Freight Solutions?",
+    "ground_truth": "The LOP platform is projected to reduce operational costs (fuel, labor) by 15-20%, improve on-time delivery rates by 10%, enhance customer satisfaction with proactive, real-time communication about shipment status, and automate disruption management, drastically cutting down manual planning hours.",
+    "source_chunk_id": "c0936d73-0c12-49a0-b6cf-58d18cfeed8b",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are Robert Chen's primary frustrations and why does he view our solution as critical?",
+    "ground_truth": "Robert Chen, VP of Operations, is deeply frustrated with inventory inaccuracies, production bottlenecks, and missed delivery targets. He sees our solution as critical to hitting his operational KPIs.",
+    "source_chunk_id": "1cf2dc43-d714-4543-8864-29fe80c7c888",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How does the company compensate for overtime work on weekends?",
+    "ground_truth": "The company pays twice the work hour rate for working on weekends.",
+    "source_chunk_id": "aeb82781-fca2-4148-ba4c-b3ef7cb039f5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the targeted operational overhead reduction that the Nexus AI Platform aims to achieve for Acme?",
+    "ground_truth": "The Nexus AI Platform aims to achieve a targeted 15-20% reduction in operational overhead for Acme through its intelligent automation and data orchestration suite.",
+    "source_chunk_id": "ad4ac6e0-88a5-4e71-97f6-8fd7d0d978ec",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Why do #Person2# and their wife want to go to China for their vacation?",
+    "ground_truth": "They want to see pandas in Sichuan.",
+    "source_chunk_id": "d5795ede-03f6-42dc-a461-a48f1ea980c3",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is our plan to address David Miller's potential concern about the cost or unclear ROI?",
+    "ground_truth": "Our plan is to conduct an ROI workshop with Mark to clearly articulate the savings in fuel, labor, and potential growth. We can also propose a phased implementation to demonstrate quicker wins.",
+    "source_chunk_id": "f14c5961-4afa-4982-a06b-65b415ee9a49",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who is our main champion at Horizon Wealth Management, and what specific operational pain points did they highlight?",
+    "ground_truth": "Our main champion at Horizon Wealth Management is Mark Davies, Head of Operations. He specifically highlighted manual client reporting, compliance risk due to manual tracking, client onboarding friction, and a lack of a unified view of client portfolios.",
+    "source_chunk_id": "7225b21f-4e91-4def-999c-41b6d9f23917",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What other performance or engagement solutions has InnovateTech considered, and what was their experience?",
+    "ground_truth": "InnovateTech briefly looked at Workday, but found it overly complex and expensive for their specific needs.",
+    "source_chunk_id": "fbefc518-53e2-4c7c-96bd-c8ee5249c8c6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary objections we anticipate from the client, and how do we plan to address the concern about integration complexity specifically?",
+    "ground_truth": "The primary anticipated objections are Cost, Integration Complexity, and Change Management/Fear of AI. To address integration complexity, especially with Mark Johnson, we will highlight our robust API documentation, dedicated integration support, and successful case studies with similar legacy systems.",
+    "source_chunk_id": "0541944a-91dc-4b6c-82ae-f61c9c4be98a",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the confirmation number for this booking?",
+    "ground_truth": "The confirmation number is 7576385.",
+    "source_chunk_id": "340ce1cf-ca77-4d2b-ad8a-1b09e5d34f17",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What food item is recommended to go with Moutan wine, and what is its reputation according to Person2?",
+    "ground_truth": "Roast Beijing Duck is recommended to go with Moutan wine. Person2 states it is the best dish of their hotel.",
+    "source_chunk_id": "f4a2ff30-958a-46ca-be82-f9c35ef23c69",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How much discount does one coupon provide for a future purchase?",
+    "ground_truth": "A coupon provides 10 pence off.",
+    "source_chunk_id": "79761870-70d3-4637-a856-06cafad1f182",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary pain points Apex Financial Solutions is experiencing with their current expense management processes?",
+    "ground_truth": "Apex Financial Solutions is struggling with manual expense reporting, a lack of real-time visibility into departmental spending until month-end, and an ineffective corporate card program that lacks granular controls, causing compliance headaches and cumbersome reconciliation.",
+    "source_chunk_id": "9a7a41ce-9209-4e48-b54d-cbc780aa71d9",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Sarah Jenkins' main priorities and what does she need to see clearly to move forward?",
+    "ground_truth": "Sarah Jenkins, the CEO/Owner, is focused on strategic growth, improving efficiency, and ultimately, increasing profitability. She needs to see the ROI clearly.",
+    "source_chunk_id": "3294bef8-cd63-4e0e-8315-4888ded5b6d0",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What were the customer's reasons for not moving forward with HubSpot?",
+    "ground_truth": "The customer found HubSpot's free CRM too clunky and feature-heavy for their specific needs, and its paid tiers were out of their immediate budget.",
+    "source_chunk_id": "85b33012-131b-4f13-bd44-2eebf99054b6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is James's backup plan if he can't find a job?",
+    "ground_truth": "In that case, James will begin working on a master's degree in the fall.",
+    "source_chunk_id": "c6347142-c07a-4f5b-9749-7a4398189887",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the primary reason InnovateTech is considered a great fit for Nexus Analytics?",
+    "ground_truth": "InnovateTech's pains are directly aligned with Nexus Analytics' core strengths.",
+    "source_chunk_id": "48129b4c-c47e-440a-b662-06c8d92434ea",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the dimensions of the backpack the customer inquired about?",
+    "ground_truth": "The dimensions of the backpack are 17.5 x 12.5 x 6 inches.",
+    "source_chunk_id": "cedaa245-d1cc-4adf-b0b4-9dc1264869e1",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who is our primary champion at GlobalLogistics Inc.?",
+    "ground_truth": "Our primary champion at GlobalLogistics Inc. is Sarah Chen, the VP of Operations.",
+    "source_chunk_id": "01779be0-64fb-4089-b2da-223aab4d0567",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What kind of food does the restaurant serve?",
+    "ground_truth": "They serve a great variety of popular Japanese dishes in set courses, and also many meat dishes.",
+    "source_chunk_id": "77d69a0b-857a-4eb2-97b4-23016854d3e5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Sarah Chen's primary concerns as the CFO for Apex Capital Management?",
+    "ground_truth": "Her focus is on efficiency, cost savings, regulatory compliance, and scalability to support future growth without increasing headcount proportionally.",
+    "source_chunk_id": "e45b28d8-6002-4be1-9d85-f92e7bc4437a",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific issues did GFS have with Oracle Transportation Management (OTM) when they previously evaluated it?",
+    "ground_truth": "GFS found Oracle Transportation Management (OTM) too monolithic, inflexible for their specific needs, and noted it had a significantly longer implementation timeline.",
+    "source_chunk_id": "5122d63d-eff4-4e28-979d-459342d18e99",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the key weaknesses of BizMetrics' offering compared to our solution?",
+    "ground_truth": "BizMetrics' models are less flexible, their platform isn't as user-friendly, and it's not as robust for real-time aggregation across all diverse sources.",
+    "source_chunk_id": "e77ee41d-d801-46e6-95f5-091efe4bf5ef",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Mark Jensen raised a concern about integration complexity. How do we plan to address this specific objection?",
+    "ground_truth": "We plan to address integration complexity by providing comprehensive documentation on our robust APIs, emphasizing our proven track record with similar legacy integrations, and offering dedicated implementation support.",
+    "source_chunk_id": "304c7bb2-1a57-422a-8734-9bbabe1c3020",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What issues did the client encounter with MercuryGate and Oracle Transportation Management (OTM)?",
+    "ground_truth": "The client found MercuryGate and OTM either too rigid for their specific LTL complexities or requiring extensive customization that drove up costs and timelines.",
+    "source_chunk_id": "87e74c57-5a5b-4ba7-a47c-5a335c0ad960",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who is the economic buyer for the Nexus Innovations deal and what are their primary concerns?",
+    "ground_truth": "Mark Thompson, the CFO, is the economic buyer. He's focused on ROI, TCO, and wants to ensure this investment directly impacts the bottom line by improving revenue predictability.",
+    "source_chunk_id": "e77ecf42-0f36-4313-8d3d-69cc67f01327",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is Jessica Lee's main goal or concern related to the sales-to-customer success handoff?",
+    "ground_truth": "Jessica Lee, Director of Customer Success, is very keen on improving early-stage CSAT scores and reducing time-to-value for new clients.",
+    "source_chunk_id": "59fa9da0-e6e3-47f6-84da-342c089a9a37",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Is Person1 interested in learning to cook Chinese food?",
+    "ground_truth": "No, Person1 is not interested in cooking much and prefers to order food from a restaurant.",
+    "source_chunk_id": "a9c7115c-7611-4568-bd4d-dbefac226bbd",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How much weekly time savings is projected for Mark's team by using the automated compliance features?",
+    "ground_truth": "Automated compliance features are projected to save Mark's team an estimated 10-15 hours per week, which can be reallocated to higher-value activities.",
+    "source_chunk_id": "497dcc7f-b500-4810-acba-e8e9a3972305",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "When will Alex Chen provide an update?",
+    "ground_truth": "Alex Chen will provide an update after Monday's call.",
+    "source_chunk_id": "f5a6262f-4c4c-4109-a534-1d0fb299ba35",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What NexusFlow plan was proposed to Acme Innovations and for how many users?",
+    "ground_truth": "The detailed proposal for the Enterprise Plan was sent, customized for 75 users.",
+    "source_chunk_id": "f1cddefc-edfd-44bb-9a2f-d2904f92e38e",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific benefits are projected from implementing SynergyFlow, and within what timeframe?",
+    "ground_truth": "Implementing SynergyFlow is projected to result in a 25% reduction in project delivery times, a 15% saving in operational resource costs, and a significant reduction in compliance audit risk within the first 12-18 months.",
+    "source_chunk_id": "003796b8-1427-44f5-aaaa-6101445b9981",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the three main pain points or business challenges Evergreen Health Systems is experiencing according to the deal notes?",
+    "ground_truth": "Evergreen Health Systems is experiencing severe staff burnout and turnover, inefficient patient throughput, and a lack of real-time operational visibility across their network.",
+    "source_chunk_id": "93a0e569-543d-44de-81a1-a388ddf83677",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How does PracticeFlow\u2122 differentiate itself from Kareo, according to this sales context?",
+    "ground_truth": "PracticeFlow\u2122 differentiates itself from Kareo through its intuitive, user-friendly interface specifically designed for pediatric practices, superior customer support, and a more robust patient engagement suite.",
+    "source_chunk_id": "df3083d6-f0e3-471d-9841-b9c018b9f48e",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "When is the detailed proposal document, including pricing options, scheduled to be sent?",
+    "ground_truth": "The detailed proposal document, which includes a summary of our discussion, a proposed solution architecture, and flexible pricing options, is scheduled to be sent by October 27th (EOD).",
+    "source_chunk_id": "08e10986-6721-4ddf-af81-7cc7ea8df9b8",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is Mr. Larry's office next to?",
+    "ground_truth": "Mr. Larry's office is next to a conference room.",
+    "source_chunk_id": "32e48783-e5dd-4894-ad8d-7973cccfc2a3",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Why can't the next meeting be held on June 12th?",
+    "ground_truth": "The meeting cannot be held on June 12th because the people from head office are coming, and Rebecca is meeting them at 10:30, so she won't be available at all that day.",
+    "source_chunk_id": "a4bc1c01-ddf3-4c3c-9b66-f9ae7d7b9681",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What course is Person2 going to take in night school?",
+    "ground_truth": "Person2 is going to take a course in business management.",
+    "source_chunk_id": "8c4a04d9-226b-4581-a2ae-ac7c1d577f46",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What did Person1 do for fun in Bali instead of diving?",
+    "ground_truth": "Person1 played table tennis instead of diving while in Bali.",
+    "source_chunk_id": "6cf39f08-02c0-4bb7-9cc1-4fb6cec7f043",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Mark Thompson's primary concerns and what is his role at GFS?",
+    "ground_truth": "Mark Thompson is the VP of Global Operations at GFS. He is concerned with route optimization, fuel efficiency, and real-time visibility.",
+    "source_chunk_id": "1a809b41-91ee-4f74-b9d5-bcec5549b90c",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Who is the main champion for the North Star Credit Union deal and what are their key priorities?",
+    "ground_truth": "Sarah Chen, VP of Lending, is the main champion. Her priorities are efficiency, improving member satisfaction, and driving loan portfolio growth.",
+    "source_chunk_id": "6d9244a3-549d-4c5b-b9da-d76499d22afd",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Apex Financial Group's main pain points related to their customer onboarding and identity verification processes?",
+    "ground_truth": "Apex Financial Group is struggling with slow, manual customer onboarding, where new account opening takes 2-3 business days and digital applications have an estimated 40% abandonment rate. They also face increasing fraud attempts due to insufficient legacy identity verification methods, and a significant compliance burden from labor-intensive, error-prone manual KYC/AML checks.",
+    "source_chunk_id": "23e1adfc-889a-4924-bc07-d3262a50f50c",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific percentage reduction in customer onboarding time can MABG expect from implementing the Synergy Core Platform?",
+    "ground_truth": "MABG can expect a 70% reduction in onboarding time through automated KYC and identity verification, which will directly boost conversion rates.",
+    "source_chunk_id": "2705b828-71ec-4130-9a90-2eed093292cb",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What communication methods are allowed for sales reps to use when contacting clients under the new policy?",
+    "ground_truth": "Effective immediately, all office communications, including those with clients, are restricted to email correspondence and official memos. Instant Messaging is strictly prohibited.",
+    "source_chunk_id": "ddef8d64-d8d1-444f-92a0-3aba32d9343e",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "How do we plan to address potential objections about our solution being 'another tool' for their team?",
+    "ground_truth": "We plan to emphasize our platform's intuitive UI and how it *simplifies* their current disjointed process, not adds complexity. We will also highlight its integration with Zapier, making it easy to connect with their existing PM tools (e.g., Asana, ClickUp) for notifications.",
+    "source_chunk_id": "1fa66fa7-b7c2-47eb-aee8-36a47aac0ead",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the key goals for the upcoming call on October 26th?",
+    "ground_truth": "The goals for the call are to refine the scope based on their input, confirm budget availability for a pilot, and ideally lock in a commitment for a Proof of Concept (POC) agreement.",
+    "source_chunk_id": "f2c9c7eb-92d5-4899-8254-4e81cf862bfb",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific features did TransGlobal find lacking in XYZ Solutions?",
+    "ground_truth": "TransGlobal found XYZ Solutions' feature set less comprehensive, particularly around predictive analytics and advanced optimization.",
+    "source_chunk_id": "393cb6c8-5954-401c-9071-0932f4eb6a0f",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the target date for the initial introductory call with Mark, and what is his role?",
+    "ground_truth": "The target date for the introductory call with Mark (VP of Ops) is the week of November 6th.",
+    "source_chunk_id": "3a79465c-f96c-48d0-9b9d-b4b52232be60",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the total cost for Mrs. Lee's perm and manicure?",
+    "ground_truth": "The total cost for Mrs. Lee's perm and manicure is 90 dollars.",
+    "source_chunk_id": "d8d08d58-5873-426b-b386-f0be87897ec5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What item does Person2 need to pay duty for according to this conversation?",
+    "ground_truth": "Person2 needs to pay duty for the whisky.",
+    "source_chunk_id": "fa889d44-9393-4183-8dfa-fd77ec67e9b4",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "Does Person2 need to bring anything to Person1's place?",
+    "ground_truth": "No, Person1 said 'No, not really. Just bring yourselves.'",
+    "source_chunk_id": "4b1653ec-0d72-4303-be46-cbbf3f5af177",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Why did Peter apologize to Rebecca?",
+    "ground_truth": "Peter apologized to Rebecca because he couldn't find the dictionary she lent him.",
+    "source_chunk_id": "7894d637-fddc-4658-86e3-2b9065c9ce7f",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What items of clothing does Person2 plan to take for formal occasions, and what is their plan for even more formal events?",
+    "ground_truth": "Person2 plans to take some nice slacks, a dress shirt, and a couple of crazy ties for formal occasions. For more formal events, they will rent a suit or tuxedo.",
+    "source_chunk_id": "f0b9cd3e-ab2f-4199-8cc9-c8a44f4cbed5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "According to the discussion, what are some of the key differences or signs that distinguish falling in love from merely having a crush?",
+    "ground_truth": "The discussion suggests that if you are in love, you might take every opportunity to talk to or telephone the person for no reason, think about them all the time, and suddenly develop new interests or start doing things you used to avoid because the person likes them (e.g., jogging, loving dogs).",
+    "source_chunk_id": "c103a95c-8d42-4ea8-b477-93eae87a921d",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What were your main responsibilities in your previous employment as a student engineer?",
+    "ground_truth": "As a student engineer, I mainly took charge of understanding the mechanical strength and corrosion resistance of various materials.",
+    "source_chunk_id": "6024aa03-c13c-4c3e-9120-657f15c3d883",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who is our primary champion at Precision Parts Inc., and what specifically excites her about our solution?",
+    "ground_truth": "Sarah Chen, the Operations Manager, is our primary champion. She is excited about the potential for real-time visibility and better planning.",
+    "source_chunk_id": "f59e82da-9a0b-4a5e-8362-2bb82b965813",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "When can we expect to receive feedback from Apex's legal team regarding the redlined contract?",
+    "ground_truth": "Apex's legal team is expected to provide feedback on the redlined contract by EOD next Tuesday, June 25th.",
+    "source_chunk_id": "5b0d2d55-ee16-483d-8147-ac496888588d",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary pain points Fusion Marketing Group is experiencing that our platform could solve?",
+    "ground_truth": "Fusion Marketing Group is wrestling with a lack of centralized visibility for projects, inefficient resource allocation leading to teams being overbooked or underutilized, difficulty tracking project profitability due to lack of clear time tracking and costing, and excessive manual reporting that consumes Sarah Chen's time.",
+    "source_chunk_id": "8e2c5b89-e15a-42b9-ac44-578b92d406aa",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the immediate goal regarding the tailored product demo, and when is it proposed to be scheduled?",
+    "ground_truth": "The immediate goal is to secure confirmation for the tailored product demo by EOD tomorrow (Oct 27). The demo is proposed for the Week of Nov 6 and is intended for Maria, David, and Jessica.",
+    "source_chunk_id": "b5900bfb-d66f-4bb5-b30c-4fb2180a12fc",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What are the three main quantifiable benefits InnovatePay can provide to Apex Bank, according to our proposal?",
+    "ground_truth": "Our InnovatePay API-driven payment platform can dramatically cut Apex Bank's transaction processing times by 60%, reduce their payment gateway maintenance costs by 25% annually, and empower their development teams to launch new payment features in weeks instead of months.",
+    "source_chunk_id": "a99b4885-b556-437f-84f0-7c077783bd5e",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How does the sales plan suggest handling Emily's likely objection regarding cost?",
+    "ground_truth": "The plan suggests reiterating the calculated ROI and TCO, focusing on long-term savings from reduced waste, improved efficiency, and increased throughput. A phased implementation payment schedule can also be explored if necessary.",
+    "source_chunk_id": "c7b552cb-6372-4a84-90e2-d82caa07fd98",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What specific percentage improvement in forecast accuracy does the proposed InnovateFlow solution offer?",
+    "ground_truth": "The InnovateFlow solution aims for 15% better pipeline predictability through centralized data and AI-driven insights, which improves forecast accuracy.",
+    "source_chunk_id": "ec08170d-a078-40cf-94d6-3157d7cad50b",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the specific issues contributing to GlobalLogistics's high operational costs?",
+    "ground_truth": "GlobalLogistics is struggling with high operational costs due to suboptimal routing, excessive fuel consumption, and inefficient resource allocation, stemming from their aging, disparate suite of legacy systems.",
+    "source_chunk_id": "cdf9a954-1f57-4f09-aad9-a5ba2cea03a3",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific hidden costs should I highlight when a client objects to our initial cost appearing higher than their current spend?",
+    "ground_truth": "You should highlight hidden costs they are currently incurring such as staff time managing fragmented logistics, production downtime, expedited shipping fees, and inventory carrying costs due to lack of visibility.",
+    "source_chunk_id": "3705228b-4a0b-4bbe-90de-a32ee541043f",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is Maria Rodriguez's specific concern about the NexusSight AI Platform, and how do we plan to address this potential objection?",
+    "ground_truth": "Maria Rodriguez is concerned about 'Integration Complexity'. We will address this by emphasizing our robust API ecosystem, pre-built connectors for common enterprise systems (like SAP and Salesforce), our dedicated professional services team, and by sharing strong case studies.",
+    "source_chunk_id": "70b09615-f254-4386-b02e-f22d35516a30",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the current stage of the QuickPay Solutions deal and what are the next internal steps for the client?",
+    "ground_truth": "The QuickPay Solutions deal is currently in the Proposal Sent stage. The client needs internal alignment on budget and technical resource allocation.",
+    "source_chunk_id": "66494a21-1ebd-4389-9fd8-79a4414dfd3e",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the status of this opportunity?",
+    "ground_truth": "It's a hot opportunity.",
+    "source_chunk_id": "1d2d5291-91bf-4b85-b82f-c107514c33ed",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the key quantifiable benefits Acme can expect from implementing our Production Optimization Platform?",
+    "ground_truth": "Acme can expect a 15-20% reduction in unplanned downtime and a 10% improvement in Overall Equipment Effectiveness (OEE). Additionally, the platform will lead to dramatically enhanced product quality traceability, faster time-to-market for new components, significant operational cost savings, and increased capacity without major capital investment in new machinery.",
+    "source_chunk_id": "999d3cf0-7209-4e4c-8fa8-d26f9e62ee6e",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who is the primary decision-maker for Summit Physical Therapy & Wellness and what are her key drivers?",
+    "ground_truth": "Dr. Emily Carter (Owner/Head PT) is the primary decision-maker. Her key drivers are patient outcomes, staff efficiency, and strategic growth.",
+    "source_chunk_id": "099a690d-78c1-42de-9f4e-efe756da1f94",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific event solidified Dr. Joseph's decision to study medicine?",
+    "ground_truth": "Dr. Joseph decided to study medicine after he used his emergency first aid training to save a woman who had stopped breathing outside his dorm, by giving her mouth to mouth and calling 911.",
+    "source_chunk_id": "fc513ee8-ea6c-450d-81ac-fd33641ba6d5",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specific issues is GreenGrowth Landscaping encountering with their current invoicing process?",
+    "ground_truth": "Their manual invoice generation is time-consuming, often delayed, and prone to errors, which impacts their cash flow.",
+    "source_chunk_id": "68a0c1ce-89d4-4820-803b-36e5233798da",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What specifically makes Kobe Bryant formidable according to Person2?",
+    "ground_truth": "What really makes him formidable is his ability to switch up and dribble with his left hand.",
+    "source_chunk_id": "64269166-a1b3-4f5e-a9fd-9dcbdd3ee481",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who is the primary champion for the Synapse Logistics Platform at GlobalTech Manufacturing, and what are they driving for?",
+    "ground_truth": "Sarah Chen, the VP of Supply Chain Operations, is the primary champion for Synapse, and she is driving this initiative for cost reduction and efficiency gains.",
+    "source_chunk_id": "034beffe-e615-475d-99ab-29ae0d263a66",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What special kind of desserts are available?",
+    "ground_truth": "Lemon pie, hot cake in syrup, chocolate sundae and custard pudding.",
+    "source_chunk_id": "20789b6b-08cb-4ed9-b71d-b8a610dc9ff4",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What specific error message did the customer encounter after attempting to access their account post-password reset?",
+    "ground_truth": "The customer received an error message that said \"Invalid credentials\".",
+    "source_chunk_id": "1afa61c7-9ef0-4c83-9ac5-86ab124e1e63",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What were the client's main criticisms of PayFast Solutions when they evaluated them last year?",
+    "ground_truth": "They found PayFast Solutions' offering less flexible for their specific payout needs, particularly around their complex commission structures.",
+    "source_chunk_id": "681ce5d3-0c60-4c8d-84e2-b4d625eccd32",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the main weaknesses of DispatchMaster compared to our solution?",
+    "ground_truth": "DispatchMaster is on the cheaper end but lacks many of our advanced optimization and reporting features, and their support is notoriously weak.",
+    "source_chunk_id": "1ecbbccf-53a4-4a7d-921c-56de83864305",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are the primary business challenges GlobalTech Innovations is facing due to their extensive manual processes?",
+    "ground_truth": "GlobalTech Innovations is experiencing a lack of visibility, inconsistent data and errors, high operational costs, slow project cycles, and employee dissatisfaction because of their extensive manual processes across departments like HR onboarding, project approvals, and contract lifecycle management.",
+    "source_chunk_id": "0e1adedc-da38-4994-aa68-d359ad874159",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is #Person1#'s primary complaint regarding #Person2#'s actions, and what specific instruction had #Person1# previously given to #Person2#?",
+    "ground_truth": "#Person1#'s primary complaint is that #Person2# came home late and did not call. #Person1# had previously instructed #Person2# to call if they were going to be home late.",
+    "source_chunk_id": "9652c2d1-5ea0-447f-b4d9-1b6835d00d06",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How will we address Mark's likely objection regarding integration complexity?",
+    "ground_truth": "We will emphasize our robust API catalog, pre-built connectors, and our dedicated professional services team for a phased implementation to address Mark's concerns about integration complexity.",
+    "source_chunk_id": "205fe6af-1aa2-465d-bc63-dd87c8ab1bd2",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What are Sarah Jenkins' main priorities for Apex Haulers?",
+    "ground_truth": "Sarah Jenkins, the CEO, is the primary decision-maker focused on strategic growth, cost efficiency, and maintaining customer satisfaction as they expand.",
+    "source_chunk_id": "ea86c86d-991a-48a5-91bd-2868171f3ed6",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the commission brokers charge for lodging a claim in Europe?",
+    "ground_truth": "In Europe, brokers charge a commission of 1% of the amount of the claim for their service.",
+    "source_chunk_id": "6c4da366-9b5e-4c26-9499-e785b7ca5ba3",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "When does the sales rep plan to have a formal proposal ready to present?",
+    "ground_truth": "The sales rep's goal is to have a formal proposal ready to present by mid-December.",
+    "source_chunk_id": "7f14bb1f-eaff-45ca-b83c-9fe2220716ca",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What did the server offer to the customer as an apology for the delay?",
+    "ground_truth": "A free glass of wine.",
+    "source_chunk_id": "dda388f8-7095-4fb5-b531-fc64dcc015cc",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What was the final resolution for John's microwave oven pickup, given the address could not be changed?",
+    "ground_truth": "The original pickup was canceled and a new pickup was scheduled for the day after tomorrow. John will receive an email with the new pickup details shortly.",
+    "source_chunk_id": "612b5236-4df3-492d-b626-6edecb4301e8",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How can #Person1# get help finding their way around Hawaii?",
+    "ground_truth": "#Person2# offered to show #Person1# around Hawaii if #Person1# calls them upon arrival.",
+    "source_chunk_id": "f596b159-bcf0-47f4-9235-5fe21b7256e6",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What information about the cost of the surprise gift was provided?",
+    "ground_truth": "The gift cost more than $250.",
+    "source_chunk_id": "3c3e786b-44d2-4d26-9416-27c6264eb5dd",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What is the projected reduction in preventable readmissions HealthCorp can expect within the first year using the ClarityPath platform?",
+    "ground_truth": "Our ClarityPath AI Readmission Prevention Platform projects a potential 15-20% reduction in preventable readmissions within the first year.",
+    "source_chunk_id": "d7801254-f201-4655-b97a-d7e1036f0e05",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "What activity does Person2 propose for when everyone returns to school?",
+    "ground_truth": "Person2 suggests having a party or something when they all get back to school.",
+    "source_chunk_id": "6e8c626f-d66f-4890-a441-d82a5ce3c350",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "How long will it take to shorten the trousers?",
+    "ground_truth": "It will take about twenty minutes to shorten the legs.",
+    "source_chunk_id": "d7a63c12-2d2a-460b-bac1-bf5b14720025",
+    "reviewed": true,
+    "flagged": false
+  },
+  {
+    "question": "What is the proposed solution for the second problem that #Person1# admitted was their fault?",
+    "ground_truth": "For the second problem, which #Person1# admitted was their fault, they will exchange all merchandise that falls short of their sample.",
+    "source_chunk_id": "b99c0293-9df9-42f3-82d1-6c30e56b3d10",
+    "reviewed": false,
+    "flagged": false
+  },
+  {
+    "question": "Who needs to attend the 60-minute deep-dive demo next week from Wellness Clinic Solutions?",
+    "ground_truth": "Dr. Chen and Sarah.",
+    "source_chunk_id": "563d74ca-f01a-47ed-8c14-85b54b78e119",
+    "reviewed": true,
+    "flagged": false
+  }
+]
