@@ -21,6 +21,7 @@ def load_callhome(cache_dir: str | Path | None = None) -> list[RawDocument]:
     from datasets import load_dataset
 
     ds = load_dataset("talkbank/callhome", "eng", split="data", cache_dir=str(cache_dir) if cache_dir else None)
+    ds = ds.remove_columns([col for col in ds.column_names if col not in ("text", "transcript", "id", "file")])
     docs: list[RawDocument] = []
     for i, row in enumerate(ds):
         # CallHome rows have a 'text' field with the full transcript

@@ -11,7 +11,7 @@ from salessense.retrieval.weaviate_client import get_client, init_schema
 
 logger = logging.getLogger(__name__)
 
-SourceType = Literal["callhome", "synthetic", "battlecards", "playbooks"]
+SourceType = Literal["dialogsum", "conversations", "synthetic", "battlecards", "playbooks"]
 
 
 def run_ingestion(source: SourceType, dry_run: bool = False) -> int:
@@ -69,9 +69,12 @@ def run_ingestion(source: SourceType, dry_run: bool = False) -> int:
 
 
 def _load_source(source: SourceType):
-    if source == "callhome":
-        from salessense.ingestion.loaders.callhome import load_callhome
-        return load_callhome()
+    if source == "dialogsum":
+        from salessense.ingestion.loaders.dialogsum import load_dialogsum
+        return load_dialogsum()
+    elif source == "conversations":
+        from salessense.ingestion.loaders.conversations import load_conversations
+        return load_conversations()
     elif source == "synthetic":
         from salessense.ingestion.loaders.synthetic import load_synthetic
         return load_synthetic()

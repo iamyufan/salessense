@@ -21,8 +21,9 @@ Production-grade RAG system over sales call transcripts, deal notes, and playboo
 
 ## Data Pipeline
 
-### Corpus (~8,000 docs)
-- **CallHome** (~1,500): Public telephone transcripts from Hugging Face (`talkbank/callhome`, English subset)
+### Corpus (~22,000 docs)
+- **DialogSum** (~14,500): Multi-turn dialogues from Hugging Face (`knkarthick/dialogsum`, all splits)
+- **E-Commerce Support Conversations** (~1,000): Agent/Customer transcripts (`NebulaByte/E-Commerce_Customer_Support_Conversations`)
 - **Synthetic Deal Notes** (~6,500): Gemini 2.5 Flash-generated across 5 industries x 3 ICP archetypes
   - Industries: SaaS, FinTech, Healthcare, Manufacturing, Logistics
   - ICPs: SMB, Mid-Market, Enterprise
@@ -54,7 +55,8 @@ salessense/
 │   │   ├── embedder.py         # Gemini embedding-001 wrapper
 │   │   ├── pipeline.py         # Orchestrates load -> chunk -> embed -> upsert
 │   │   └── loaders/
-│   │       ├── callhome.py     # HuggingFace CallHome loader
+│   │       ├── dialogsum.py    # HuggingFace DialogSum loader
+│   │       ├── conversations.py # HuggingFace e-commerce support conversations loader
 │   │       ├── synthetic.py    # Gemini-generated doc loader
 │   │       └── pdf.py          # PDF -> text (playbooks)
 │   ├── retrieval/
@@ -72,7 +74,7 @@ salessense/
 │       ├── ragas_eval.py       # Ragas metric runner
 │       └── golden_set.py       # Golden QA set loader
 ├── data/
-│   ├── raw/{callhome,synthetic,battlecards,playbooks}/
+│   ├── raw/{synthetic,battlecards,playbooks}/  # HF datasets streamed at ingest time
 │   └── processed/
 ├── scripts/
 │   ├── ingest.py               # CLI: run full ingestion pipeline
@@ -93,7 +95,8 @@ docker compose up -d
 uv sync
 
 # Run ingestion
-uv run python scripts/ingest.py --source callhome
+uv run python scripts/ingest.py --source dialogsum
+uv run python scripts/ingest.py --source conversations
 uv run python scripts/ingest.py --source synthetic
 uv run python scripts/ingest.py --source battlecards
 uv run python scripts/ingest.py --source playbooks

@@ -3,17 +3,25 @@ import time
 
 from google import genai
 from google.genai import types
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 from salessense.config import settings
 
 _client = genai.Client(api_key=settings.google_api_key)
 
-# Gemini embedding API rate limit: 100 req/min for gemini-embedding-001
-_BATCH_DELAY = 0.6  # seconds between batches
+# Gemini embedding API: 100 req/min free tier — 1.5s delay = ~40 req/min (safe margin)
+_BATCH_DELAY = 1.5  # seconds between batches
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+def _is_rate_limit(exc: BaseException) -> bool:
+    return "429" in str(exc) or "RESOURCE_EXHAUSTED" in str(exc)
+
+
+@retry(
+    retry=retry_if_exception(_is_rate_limit),
+    stop=stop_after_attempt(8),
+    wait=wait_exponential(multiplier=2, min=10, max=60),
+)
 def _embed_batch(texts: list[str], task_type: str) -> list[list[float]]:
     response = _client.models.embed_content(
         model=settings.embedding_model,

@@ -28,21 +28,28 @@ def load_synthetic(data_dir: str | Path = "data/raw/synthetic") -> list[RawDocum
             with open(path) as f:
                 for line in f:
                     record = json.loads(line)
-                    docs.append(_record_to_doc(record))
+                    doc = _record_to_doc(record)
+                    if doc is not None:
+                        docs.append(doc)
         else:
             with open(path) as f:
                 record = json.load(f)
                 if isinstance(record, list):
-                    docs.extend(_record_to_doc(r) for r in record)
+                    docs.extend(d for r in record if (d := _record_to_doc(r)) is not None)
                 else:
-                    docs.append(_record_to_doc(record))
+                    doc = _record_to_doc(record)
+                    if doc is not None:
+                        docs.append(doc)
 
     return docs
 
 
-def _record_to_doc(record: dict) -> RawDocument:
+def _record_to_doc(record: dict) -> RawDocument | None:
+    text = record.get("text")
+    if not text:
+        return None
     return RawDocument(
-        text=record["text"],
+        text=text,
         source_id=record.get("id", record.get("source_id", "unknown")),
         doc_type="deal_note",
         metadata={

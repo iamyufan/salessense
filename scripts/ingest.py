@@ -12,7 +12,7 @@ def main():
     parser.add_argument(
         "--source",
         required=True,
-        choices=["callhome", "synthetic", "battlecards", "playbooks"],
+        choices=["dialogsum", "conversations", "synthetic", "battlecards", "playbooks"],
         help="Data source to ingest",
     )
     parser.add_argument("--dry-run", action="store_true", help="Chunk only, skip embed+upsert")
