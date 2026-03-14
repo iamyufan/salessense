@@ -228,14 +228,40 @@ Retrieved 20 candidates via hybrid search → reranked to top 5 via Cohere (scor
 
 ## Evaluation
 
-Ragas metrics evaluated against a 200-question golden set:
-- `answer_relevancy` ≥ 0.75
-- `faithfulness` ≥ 0.75
-- `context_precision` ≥ 0.75
-- `context_recall` ≥ 0.75
+Ragas metrics evaluated against a 200-question golden set (pass threshold: ≥ 0.75 on all metrics).
+
+### Latest scores
+
+| Metric | Score | Status |
+|---|---|---|
+| faithfulness | 0.9277 | PASS |
+| answer_relevancy | 0.7690 | PASS |
+| context_precision | 0.6900 | FAIL |
+| context_recall | 0.7233 | FAIL |
 
 CI gate enforced via GitHub Actions on every push.
 
+### Golden set construction
+
+The golden set is generated from the live corpus and optionally reviewed before eval:
+
+```bash
+# Phase 1 — generate 200 Q&A pairs from sampled Weaviate chunks
+uv run python scripts/generate_golden_set.py --count 200 --output data/eval/golden_set.json
+
+# Phase 2 — interactively review a sample (approve / edit / flag items)
+uv run python scripts/review_golden_set.py --golden-set data/eval/golden_set.json --sample 80
+```
+
+`generate_golden_set.py` uses cursor-based Weaviate pagination, calls Gemini 2.5 Flash to produce grounded Q&A pairs, and saves incrementally (crash-safe, resumable). `review_golden_set.py` deterministically samples 40% of unreviewed items, fetches the source chunk for context, and persists each decision immediately.
+
+### Running eval
+
 ```bash
 uv run python scripts/evaluate.py
+
+# Save scores to a file
+uv run python scripts/evaluate.py --output data/eval/scores.json
 ```
+
+Flagged items are automatically excluded. Exits 0 on pass, 1 on fail.
