@@ -230,7 +230,9 @@ Retrieved 20 candidates via hybrid search → reranked to top 5 via Cohere (scor
 
 Ragas metrics evaluated against a 200-question golden set (pass threshold: ≥ 0.75 on all metrics).
 
-### Latest scores
+### Experiment 1
+
+Scores:
 
 | Metric | Score | Status |
 |---|---|---|
@@ -239,7 +241,31 @@ Ragas metrics evaluated against a 200-question golden set (pass threshold: ≥ 0
 | context_precision | 0.6900 | FAIL |
 | context_recall | 0.7233 | FAIL |
 
-CI gate enforced via GitHub Actions on every push.
+Configurations:
+
+```# Model configuration (overridable)
+LLM_MODEL=gemini-2.5-flash
+EMBEDDING_MODEL=gemini-embedding-001
+EMBEDDING_DIM=3072
+RERANK_MODEL=rerank-english-v3.0
+
+# Retrieval parameters
+HYBRID_TOP_K=20
+RERANK_TOP_N=5
+HYBRID_ALPHA=0.75  # 0=pure BM25, 1=pure vector
+
+# Cache
+REDIS_CACHE_TTL=3600  # seconds
+
+# Ingestion
+CHUNK_SIZE=512
+CHUNK_OVERLAP=64
+BATCH_SIZE=100
+
+# Eval
+EVAL_PASS_THRESHOLD=0.75
+```
+
 
 ### Golden set construction
 
